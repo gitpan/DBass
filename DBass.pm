@@ -5,7 +5,7 @@ use strict;
 use vars '$VERSION';
 require 5.004;
 
-$VERSION = $VERSION = '0.52';
+$VERSION = $VERSION = '0.53';
 
 ################################  CONSTANTS  ################################
 sub LOCK_SH () { 1 }
@@ -648,6 +648,8 @@ The module should be pronounced C</di'bas/>.
 The C<xeen> API is not named after the IBM alphaWorks C<Xeena> XML editor.
 
 =head1 CHANGES
+
+    0.53  2000.01.11  fixed Makefile.PL (oops!)
 
     0.52  1999.10.30  added check for _OBJ
                       added check for _HASHREF
